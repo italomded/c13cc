@@ -4,6 +4,10 @@ header {
     padding: 2rem;
 }
 
+header p {
+    font-weight: 600;
+}
+
 nav, ul, li, header h1 {
     display: inline;
     font-size: 1.8rem;   
@@ -32,10 +36,11 @@ li a:hover, .active {
         padding: 4rem 5rem 0rem 3rem;
     }
 
-    header h1 {
+    header p {
         order: 2;
         margin-left: 1rem;
         font-size: 2rem;
+        font-weight: 200;
     }
 
 }

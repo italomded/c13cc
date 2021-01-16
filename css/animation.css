@@ -4,7 +4,7 @@ header {
     animation-duration: 1.5s;
 }
 
-section, .info {
+section, .info, .gallery {
     opacity: 100%;
     animation-name: opacidade;
     animation-duration: 3s;

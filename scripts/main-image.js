@@ -6,7 +6,7 @@ function changeImage() {
         return Math.floor(Math.random() * (max - min)) + min;
     }
 
-    document.querySelector(".main-image").src = "./imgs/gallery/picture (" + getRandomInt() + ").jpeg";
+    document.querySelector(".main-image").src = "./imgs/gallery/picture-" + getRandomInt() + ".jpeg";
 
 }
 
