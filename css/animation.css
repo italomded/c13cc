@@ -1,0 +1,28 @@
+header {
+    opacity: 100%;
+    animation-name: opacidade;
+    animation-duration: 1.5s;
+}
+
+section, .info {
+    opacity: 100%;
+    animation-name: opacidade;
+    animation-duration: 3s;
+}
+
+article, .map-container {
+    opacity: 100%;
+    animation-name: opacidade;
+    animation-duration: 3s;
+}
+
+footer {
+    opacity: 100%;
+    animation-name: opacidade;
+    animation-duration: 4s;
+}
+
+@keyframes opacidade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}

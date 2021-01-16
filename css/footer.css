@@ -1,0 +1,47 @@
+footer i {
+    margin-bottom: 4rem;
+}
+
+footer p {
+    margin-bottom: 2rem;
+}
+
+.contact{
+    margin-top: 2rem;
+}
+
+.contact a {
+    padding: .7rem 1rem .7rem 1rem;
+    border-radius: 20%;
+
+    color: #FCFCFF;
+    background-color: #393E41;
+
+    transition: .3s background-color;
+}
+
+.contact a:hover {
+    background-color: #28C2FF;
+}
+
+#instagram {
+    margin-left: 1rem;
+}
+
+@media (min-width: 760px) {
+
+    footer {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        padding-left: 3rem;
+    }
+
+    footer p {
+        order: 2;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+
+}

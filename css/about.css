@@ -1,0 +1,49 @@
+article {
+    padding: 5rem 3rem 3rem 3rem;
+}
+
+article p {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 3rem;
+
+    margin-top: 2rem;
+}
+
+article h1 {
+    margin-bottom: 3rem;
+
+    text-align: center;
+}
+
+#symbol1 {
+    margin-top: 5rem;
+}
+
+@media (min-width: 760px) {
+
+    article {
+        width: 50%;
+    }
+
+    article {
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    #symbol1, #symbol2 {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    article h1 {
+        text-align: left;
+    }
+}

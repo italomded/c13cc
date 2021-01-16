@@ -1,0 +1,43 @@
+#mapid {
+    width: 100%;
+    height: 30rem;
+    
+    border: 2px solid #393E41;
+    border-radius: 1em;
+}
+
+.map-container {
+    padding: 0rem 3rem 5rem 3rem;
+}
+
+.map-container header {
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+@media (min-width: 760px) {
+
+    .map-container {
+        width: 50%;
+        padding: 5rem 3rem 3rem 3rem;   
+    }
+
+    .map-container header {
+        justify-content: center;
+        padding: 1rem;
+
+        border-radius: 1em;
+        border: solid 2px #3b3b3b;
+
+        background-color: #28C2FF;
+        color: #FCFCFF;
+    }
+
+    #mapid {
+        height: 100%;
+        width: 100%; 
+
+        border: 2px solid #3b3b3b;
+    }
+
+}

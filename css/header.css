@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav, ul, li, header h1 {
+    display: inline;
+    font-size: 1.8rem;   
+}
+
+li a {
+    padding: 1rem;
+    border-radius: 1rem;
+
+    transition: .3s background-color;
+
+    background-color: #393E41;
+    text-decoration: none;
+    color: #FCFCFF;
+
+    font-size: 1.6rem;
+}
+
+li a:hover, .active {
+    background-color: #28C2FF;
+}
+
+@media (min-width: 760px) {
+
+    header {
+        padding: 4rem 5rem 0rem 3rem;
+    }
+
+    header h1 {
+        order: 2;
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+
+}
+
